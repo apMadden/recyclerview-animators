@@ -342,7 +342,7 @@ public abstract class BaseItemAnimator extends SimpleItemAnimator {
       endAnimation(newHolder);
       ViewCompat.setTranslationX(newHolder.itemView, -deltaX);
       ViewCompat.setTranslationY(newHolder.itemView, -deltaY);
-      ViewCompat.setAlpha(newHolder.itemView, 0);
+      //ViewCompat.setAlpha(newHolder.itemView, 0);
     }
     mPendingChanges.add(new ChangeInfo(oldHolder, newHolder, fromX, fromY, toX, toY));
     return true;
